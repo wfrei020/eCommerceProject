@@ -12,6 +12,11 @@ font-family: Raleway sans-serif;
 	text-transform: uppercase;
 
 }
+a
+{
+	text-decoration: none;
+	color:white;
+}
 
 header {
 	background: url(../assets/main-image-1.jpeg);
@@ -22,6 +27,7 @@ header {
    	width: 100%;
 	margin:0;
 	position: relative;
+	color:white;
 }
 
 h2
@@ -45,10 +51,17 @@ ul
 	margin:0;
 	padding:0;
 }
+h1
+{
+	border:1px white solid;
+	font-size: 3rem;
+	
+	
+}
 
 footer
 {
-	background-color: black;
+	background-color: #141414;
 	color: white;
 }
 .wrapper
@@ -56,7 +69,19 @@ footer
 	padding:5% 10%;
 
 }
-
+.mainHeading
+{
+	align-items: center;
+	text-align: center;
+	width :40%;
+margin-bottom:10%;
+}
+.headerLogo
+{
+	width:100px;
+	    //padding-right: 20%;
+    margin-left: 20px;
+}
 
 .header_nav_container
 {
@@ -65,8 +90,16 @@ footer
 	flex-grow:1;
 
 justify-content:space-between;
-align-items: center;
+
 	height:100%;
+}
+.mainHeadingFlexContainer
+{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .header_top_banner
@@ -77,13 +110,46 @@ align-items: center;
 	justify-content: space-between;
 align-content: center;
 align-items: center;
+
+
 }
 
 .nav_item
 {
-	width:100PX;
+	width:80PX;
 	height:30%;
 
+}
+.mainHesding p
+{
+	font-size: 1.5rem;
+}
+.discover
+{
+	
+	margin: 0 35%;
+	border:1px solid white;
+}
+.row1_center
+{
+	text-align:center;
+}
+.newArrival
+{
+	margin: 2% 40%;
+	border:1px solid #e4e4e4;
+}
+.mini_nav_container
+{
+	display:flex;
+	padding:0 25%;
+justify-content: space-between;
+
+
+}
+.mini_item
+{
+	color:#eeb013;
 }
 
 .row1_1{
@@ -94,6 +160,10 @@ align-items: center;
 .row1_2{
 	display: flex;
 	flex-wrap: wrap;
+}
+.imageHeading.row1_1_2 div
+{
+	border:none;
 }
 
 
@@ -164,8 +234,47 @@ text-align: center;
 	padding:0;
 }
 
-.row1_2_item img
+.row1_2_item 
 {
 	padding:10px;
+
+
+}
+
+.regPrice
+{
+	color:#e4e4e4;
+	text-decoration: line-through #e4e4e4;
+}
+.doubleItem
+{
+	position:relative;
+
+}
+.newItem
+{
+	position: absolute;
+	top:0;
+	left:0;
+	color:#141414;
+	border:1px solid #141414;
+}
+
+.addToCart
+{
+	background-color: #eeb013;
+	display: none;
+	position:absolute;
+	width:100%;
+	bottom: 0;
+	left:0;
+	color: #141414;
+	text-align:  center;
+}
+
+a:hover .addToCart
+{
+	display: block;
+
 }
 
