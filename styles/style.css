@@ -61,7 +61,7 @@ h1
 
 footer
 {
-	background-color: #141414;
+    background-color: #141414;
 	color: white;
 }
 .wrapper
@@ -283,3 +283,49 @@ a:hover .addToCart
 	display:flex;
 	
 }
+
+.row2 , .row3 , .row7
+{
+    position:relative;
+}
+.row2 .main-content 
+{
+    position:absolute;
+    right:30%;
+    top:40%;
+}
+
+.row3 .main-content , .row7 .main-content 
+{
+    position:absolute;
+    left:20%;
+    top:40%;
+    width:30%;
+}
+
+.row4
+{
+display:flex;
+justify-content:center;
+
+}
+.instagram
+{
+    
+    flex-wrap: wrap;
+}
+.instagram div{
+margin:2px;
+}
+button{
+    
+    font-size:2rem;
+
+width:200px;
+}
+
+.shoppingNow
+{
+}
+
+
