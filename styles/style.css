@@ -8,9 +8,10 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 html , body 
 {
 font-size: 62.5%;
-font-family: Raleway sans-serif;
+font-family: Montserrat;
+font-weight: 700;
 	text-transform: uppercase;
-
+text-align: center;
 }
 a
 {
@@ -54,6 +55,8 @@ ul
 h1
 {
 	border:1px white solid;
+	padding:5px 2px;
+
 	font-size: 3rem;
 	
 	
@@ -62,7 +65,9 @@ h1
 footer
 {
     background-color: #141414;
-	color: white;
+	color: #e4e4e4 ;
+	text-align: left;
+
 }
 .wrapper
 {
@@ -73,7 +78,7 @@ footer
 {
 	align-items: center;
 	text-align: center;
-	width :40%;
+	width :55%;
 margin-bottom:10%;
 }
 .headerLogo
@@ -198,6 +203,12 @@ justify-content: space-between;
 .footerNav
 {
 	text-decoration: none;
+
+}
+
+.footerNav li
+{
+	margin:5%;
 }
 
 .row1_1 div
@@ -287,18 +298,19 @@ a:hover .addToCart
 .row2 , .row3 , .row7
 {
     position:relative;
+    text-align: center;
 }
 .row2 .main-content 
 {
     position:absolute;
-    right:30%;
+    right:10%;
     top:40%;
 }
 
 .row3 .main-content , .row7 .main-content 
 {
     position:absolute;
-    left:20%;
+    left:10%;
     top:40%;
     width:30%;
 }
@@ -328,4 +340,39 @@ width:200px;
 {
 }
 
+.circleIcon
+{
+	font-size: 40px;
+    border-radius: 314px;
+    border: 1px solid black;
+    width: 15%;
+        margin-left: 42%;
+}
 
+.copyright
+{
+	justify-content: space-between;
+	margin-top:30px;
+}
+.footerLogo
+{
+	width:50%;
+	text-align: left;
+}
+.yellowFont
+{
+	color :#eeb013;
+}
+.footerTitle
+{
+	font-size:1.2rem;
+}
+.social
+{
+	margin-right:5%;
+}
+
+.social div
+{
+	width:40px;
+}
